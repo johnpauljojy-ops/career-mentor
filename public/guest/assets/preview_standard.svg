@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1060" width="800" height="1060" style="background:#ffffff; font-family:'Segoe UI', Arial, sans-serif;">
+  <defs>
+    <filter id="crescentShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#06b6d4" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Top Header Area -->
+  <g transform="translate(45, 45)">
+    <!-- Crescent Avatar Container -->
+    <circle cx="50" cy="50" r="48" fill="none" stroke="#06b6d4" stroke-width="4" stroke-dasharray="240, 60" filter="url(#crescentShadow)"/>
+    <circle cx="50" cy="50" r="42" fill="#0284c7"/>
+    <!-- Silhouette inside avatar -->
+    <circle cx="50" cy="40" r="16" fill="#ffffff"/>
+    <path d="M 26 74 C 26 58, 74 58, 74 74 Z" fill="#ffffff"/>
+
+    <!-- Name & Subtitle -->
+    <text x="120" y="42" fill="#1e293b" font-size="30" font-weight="800" letter-spacing="-0.5">SARAH JENNINGS</text>
+    <text x="120" y="68" fill="#06b6d4" font-size="16" font-weight="700">Senior UI/UX Designer &amp; Product Strategist</text>
+
+    <!-- Right Side Contact Info -->
+    <g transform="translate(710, 20)" text-anchor="end" font-size="12" fill="#475569">
+      <text x="0" y="0">✆ +1 (555) 345-6789</text>
+      <text x="0" y="18">✉ sarah.jennings@design.io</text>
+      <text x="0" y="36">📍 San Francisco, CA</text>
+      <text x="0" y="54">🌐 sarahjennings.design</text>
+    </g>
+  </g>
+
+  <!-- Double Cyan Divider Framing the Summary -->
+  <g transform="translate(45, 175)">
+    <line x1="0" y1="0" x2="710" y2="0" stroke="#38bdf8" stroke-width="3.5"/>
+    <text x="0" y="24" fill="#334155" font-size="13" font-weight="500">
+      Award-winning Product Designer with 6+ years driving end-to-end UX architecture and design systems for high-growth tech platforms.
+    </text>
+    <text x="0" y="42" fill="#334155" font-size="13" font-weight="500">
+      Proven ability to bridge customer empathy with business metrics, increasing user engagement by over 35%.
+    </text>
+    <line x1="0" y1="56" x2="710" y2="56" stroke="#38bdf8" stroke-width="3.5"/>
+  </g>
+
+  <!-- Experience Section -->
+  <g transform="translate(45, 275)">
+    <!-- Bullseye Icon + Title -->
+    <circle cx="10" cy="10" r="9" fill="none" stroke="#0284c7" stroke-width="2.5"/>
+    <circle cx="10" cy="10" r="4" fill="#0284c7"/>
+    <text x="28" y="16" fill="#0284c7" font-size="17" font-weight="700">WORK EXPERIENCE</text>
+
+    <!-- Item 1 -->
+    <text x="28" y="46" fill="#0f172a" font-size="15" font-weight="700">Lead Product Designer</text>
+    <text x="710" y="46" fill="#0284c7" font-size="12" font-weight="700" text-anchor="end">2021 — PRESENT</text>
+    <text x="28" y="65" fill="#06b6d4" font-size="13" font-weight="600">Creative Pulse Studio • San Francisco, CA</text>
+    <text x="28" y="86" fill="#475569" font-size="12.5">• Spearheaded core SaaS product redesign impacting 500k+ global active business users.</text>
+    <text x="28" y="104" fill="#475569" font-size="12.5">• Created comprehensive Figma design system containing 250+ tokens and modular components.</text>
+    <text x="28" y="122" fill="#475569" font-size="12.5">• Mentored team of 6 product designers and collaborated directly with VP of Product.</text>
+
+    <!-- Item 2 -->
+    <text x="28" y="160" fill="#0f172a" font-size="15" font-weight="700">UI/UX &amp; Interaction Designer</text>
+    <text x="710" y="160" fill="#64748b" font-size="12" font-weight="600" text-anchor="end">2018 — 2021</text>
+    <text x="28" y="179" fill="#06b6d4" font-size="13" font-weight="600">Horizon Digital Lab • New York, NY</text>
+    <text x="28" y="200" fill="#475569" font-size="12.5">• Designed mobile-first interfaces and conducted 40+ usability testing sessions per quarter.</text>
+    <text x="28" y="218" fill="#475569" font-size="12.5">• Built high-fidelity prototypes in ProtoPie and Principle for executive stakeholder buy-in.</text>
+  </g>
+
+  <!-- Key Projects Section -->
+  <g transform="translate(45, 545)">
+    <!-- Bullseye Icon + Title -->
+    <circle cx="10" cy="10" r="9" fill="none" stroke="#0284c7" stroke-width="2.5"/>
+    <circle cx="10" cy="10" r="4" fill="#0284c7"/>
+    <text x="28" y="16" fill="#0284c7" font-size="17" font-weight="700">FEATURED PROJECTS</text>
+
+    <text x="28" y="44" fill="#0f172a" font-size="14.5" font-weight="700">FinTech Mobile Banking Experience</text>
+    <text x="710" y="44" fill="#10b981" font-size="11.5" font-weight="700" text-anchor="end">Featured Case Study</text>
+    <text x="28" y="64" fill="#475569" font-size="12.5">• Complete mobile banking journey resulting in a 4.8-star App Store rating across 25k reviews.</text>
+
+    <text x="28" y="94" fill="#0f172a" font-size="14.5" font-weight="700">Universal Design System Platform</text>
+    <text x="710" y="94" fill="#64748b" font-size="11.5" font-weight="600" text-anchor="end">Open Token Engine</text>
+    <text x="28" y="114" fill="#475569" font-size="12.5">• Cross-platform design system integrated into React and iOS Swift codebase.</text>
+  </g>
+
+  <!-- Bottom 2-Column: Education & Skills -->
+  <g transform="translate(45, 715)">
+    <!-- Left: Education -->
+    <g>
+      <circle cx="10" cy="10" r="9" fill="none" stroke="#0284c7" stroke-width="2.5"/>
+      <circle cx="10" cy="10" r="4" fill="#0284c7"/>
+      <text x="28" y="16" fill="#0284c7" font-size="16" font-weight="700">EDUCATION</text>
+
+      <text x="28" y="44" fill="#0f172a" font-size="14" font-weight="700">B.Des in Interaction &amp; Digital Media</text>
+      <text x="28" y="62" fill="#64748b" font-size="12">California College of the Arts • 2014 - 2018</text>
+      <text x="28" y="80" fill="#0284c7" font-size="11.5" font-weight="600">Dean's Honor List • GPA 3.9 / 4.0</text>
+    </g>
+
+    <!-- Right: Skills (X: 380) -->
+    <g transform="translate(370, 0)">
+      <circle cx="10" cy="10" r="9" fill="none" stroke="#0284c7" stroke-width="2.5"/>
+      <circle cx="10" cy="10" r="4" fill="#0284c7"/>
+      <text x="28" y="16" fill="#0284c7" font-size="16" font-weight="700">CORE EXPERTISE</text>
+
+      <g transform="translate(28, 36)">
+        <rect x="0" y="0" width="75" height="22" rx="4" fill="#f0f9ff" stroke="#bae6fd"/>
+        <text x="37.5" y="15" fill="#0369a1" font-size="11" font-weight="600" text-anchor="middle">Figma UI</text>
+
+        <rect x="83" y="0" width="95" height="22" rx="4" fill="#f0f9ff" stroke="#bae6fd"/>
+        <text x="130.5" y="15" fill="#0369a1" font-size="11" font-weight="600" text-anchor="middle">Design System</text>
+
+        <rect x="186" y="0" width="85" height="22" rx="4" fill="#f0f9ff" stroke="#bae6fd"/>
+        <text x="228.5" y="15" fill="#0369a1" font-size="11" font-weight="600" text-anchor="middle">Wireframing</text>
+
+        <rect x="0" y="28" width="90" height="22" rx="4" fill="#f0f9ff" stroke="#bae6fd"/>
+        <text x="45" y="43" fill="#0369a1" font-size="11" font-weight="600" text-anchor="middle">User Research</text>
+
+        <rect x="98" y="28" width="80" height="22" rx="4" fill="#f0f9ff" stroke="#bae6fd"/>
+        <text x="138" y="43" fill="#0369a1" font-size="11" font-weight="600" text-anchor="middle">Prototyping</text>
+
+        <rect x="186" y="28" width="80" height="22" rx="4" fill="#f0f9ff" stroke="#bae6fd"/>
+        <text x="226" y="43" fill="#0369a1" font-size="11" font-weight="600" text-anchor="middle">HTML &amp; CSS</text>
+      </g>
+    </g>
+  </g>
+</svg>

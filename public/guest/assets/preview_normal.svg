@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1060" width="800" height="1060" style="background:#ffffff; font-family:'Segoe UI', Arial, sans-serif;">
+  <defs>
+    <linearGradient id="normalHeaderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="180" fill="url(#normalHeaderGrad)"/>
+  
+  <!-- Avatar Circle -->
+  <circle cx="95" cy="90" r="50" fill="#ffffff" filter="url(#shadow)"/>
+  <circle cx="95" cy="90" r="46" fill="#3b82f6"/>
+  <!-- Avatar Silhouette -->
+  <circle cx="95" cy="78" r="18" fill="#ffffff"/>
+  <path d="M 68 115 C 68 98, 122 98, 122 115 Z" fill="#ffffff"/>
+
+  <!-- Header Text -->
+  <text x="170" y="70" fill="#ffffff" font-size="28" font-weight="700" letter-spacing="0.5">ALEXANDER MORGAN</text>
+  <text x="170" y="96" fill="#bfdbfe" font-size="16" font-weight="500">Full Stack Software Engineer</text>
+  
+  <g transform="translate(170, 118)" fill="#e2e8f0" font-size="12">
+    <text x="0" y="16">✉ alex.morgan@email.com</text>
+    <text x="195" y="16">✆ +91 98765 43210</text>
+    <text x="350" y="16">📍 Bangalore, India</text>
+    <text x="490" y="16">🔗 linkedin.com/in/alex</text>
+  </g>
+
+  <!-- Left Column (Width: 470px) -->
+  <g transform="translate(40, 215)">
+    <!-- Experience -->
+    <text x="0" y="20" fill="#1e3a8a" font-size="16" font-weight="700" letter-spacing="0.5">💼 WORK EXPERIENCE</text>
+    <line x1="0" y1="28" x2="440" y2="28" stroke="#e2e8f0" stroke-width="2"/>
+    
+    <text x="0" y="52" fill="#0f172a" font-size="14" font-weight="700">Senior Full Stack Developer</text>
+    <text x="440" y="52" fill="#2563eb" font-size="12" font-weight="600" text-anchor="end">2022 - Present</text>
+    <text x="0" y="69" fill="#64748b" font-size="12" font-weight="500">TechCorp Solutions • Bangalore</text>
+    <text x="12" y="88" fill="#475569" font-size="12">• Architected robust microservices in Laravel and React handling 2M+ monthly hits.</text>
+    <text x="12" y="104" fill="#475569" font-size="12">• Streamlined database queries reducing API latency by 42% across core endpoints.</text>
+
+    <text x="0" y="136" fill="#0f172a" font-size="14" font-weight="700">Software Engineer</text>
+    <text x="440" y="136" fill="#64748b" font-size="12" font-weight="600" text-anchor="end">2020 - 2022</text>
+    <text x="0" y="153" fill="#64748b" font-size="12" font-weight="500">Apex Innovations • Hyderabad</text>
+    <text x="12" y="172" fill="#475569" font-size="12">• Developed interactive SPA interfaces using React.js and RESTful backend APIs.</text>
+    <text x="12" y="188" fill="#475569" font-size="12">• Built automated testing and CI/CD pipelines reducing deployment friction.</text>
+
+    <!-- Key Projects -->
+    <text x="0" y="235" fill="#1e3a8a" font-size="16" font-weight="700" letter-spacing="0.5">🚀 KEY PROJECTS</text>
+    <line x1="0" y1="243" x2="440" y2="243" stroke="#e2e8f0" stroke-width="2"/>
+
+    <text x="0" y="267" fill="#0f172a" font-size="14" font-weight="700">CareerMentor — AI Career &amp; Resume Builder</text>
+    <text x="440" y="267" fill="#10b981" font-size="11" font-weight="600" text-anchor="end">Live Project</text>
+    <text x="12" y="286" fill="#475569" font-size="12">• AI recommendation system matching candidates to tailored career paths &amp; ATS resumes.</text>
+    <text x="12" y="302" fill="#475569" font-size="12">• Built subscription engine, automated PDF export, and payment workflow.</text>
+
+    <text x="0" y="334" fill="#0f172a" font-size="14" font-weight="700">E-Commerce Cloud Engine</text>
+    <text x="440" y="334" fill="#64748b" font-size="11" font-weight="600" text-anchor="end">Open Source</text>
+    <text x="12" y="353" fill="#475569" font-size="12">• High-performance distributed store with instant checkout and real-time stock sync.</text>
+
+    <!-- Education -->
+    <text x="0" y="400" fill="#1e3a8a" font-size="16" font-weight="700" letter-spacing="0.5">🎓 EDUCATION</text>
+    <line x1="0" y1="408" x2="440" y2="408" stroke="#e2e8f0" stroke-width="2"/>
+
+    <text x="0" y="432" fill="#0f172a" font-size="14" font-weight="700">B.Tech in Computer Science &amp; Engineering</text>
+    <text x="440" y="432" fill="#2563eb" font-size="12" font-weight="600" text-anchor="end">2016 - 2020</text>
+    <text x="0" y="449" fill="#64748b" font-size="12">National Institute of Technology • CGPA: 8.9 / 10</text>
+
+    <!-- Profile Summary -->
+    <text x="0" y="495" fill="#1e3a8a" font-size="16" font-weight="700" letter-spacing="0.5">👤 PROFESSIONAL SUMMARY</text>
+    <line x1="0" y1="503" x2="440" y2="503" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="0" y="525" fill="#475569" font-size="12" line-height="1.5">Full Stack Engineer with 4+ years building scalable cloud apps and modern web platforms.</text>
+    <text x="0" y="542" fill="#475569" font-size="12">Proven track record optimizing performance, leading feature delivery, and clean code.</text>
+  </g>
+
+  <!-- Right Column (Width: 240px) -->
+  <g transform="translate(520, 215)">
+    <!-- Technical Skills -->
+    <text x="0" y="20" fill="#1e3a8a" font-size="16" font-weight="700" letter-spacing="0.5">⚡ TECHNICAL SKILLS</text>
+    <line x1="0" y1="28" x2="240" y2="28" stroke="#e2e8f0" stroke-width="2"/>
+    
+    <!-- Skill Pills -->
+    <g transform="translate(0, 42)">
+      <rect x="0" y="0" width="60" height="24" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+      <text x="30" y="16" fill="#1d4ed8" font-size="11" font-weight="600" text-anchor="middle">PHP</text>
+      
+      <rect x="68" y="0" width="70" height="24" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+      <text x="103" y="16" fill="#1d4ed8" font-size="11" font-weight="600" text-anchor="middle">Laravel</text>
+
+      <rect x="146" y="0" width="75" height="24" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+      <text x="183.5" y="16" fill="#1d4ed8" font-size="11" font-weight="600" text-anchor="middle">React.js</text>
+
+      <rect x="0" y="32" width="85" height="24" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+      <text x="42.5" y="48" fill="#1d4ed8" font-size="11" font-weight="600" text-anchor="middle">JavaScript</text>
+
+      <rect x="93" y="32" width="65" height="24" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+      <text x="125.5" y="48" fill="#1d4ed8" font-size="11" font-weight="600" text-anchor="middle">MySQL</text>
+
+      <rect x="166" y="32" width="65" height="24" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+      <text x="198.5" y="48" fill="#1d4ed8" font-size="11" font-weight="600" text-anchor="middle">Python</text>
+
+      <rect x="0" y="64" width="75" height="24" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+      <text x="37.5" y="80" fill="#1d4ed8" font-size="11" font-weight="600" text-anchor="middle">REST APIs</text>
+
+      <rect x="83" y="64" width="60" height="24" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+      <text x="113" y="80" fill="#1d4ed8" font-size="11" font-weight="600" text-anchor="middle">Docker</text>
+
+      <rect x="151" y="64" width="75" height="24" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+      <text x="188.5" y="80" fill="#1d4ed8" font-size="11" font-weight="600" text-anchor="middle">AWS Cloud</text>
+    </g>
+
+    <!-- Certifications -->
+    <text x="0" y="175" fill="#1e3a8a" font-size="16" font-weight="700" letter-spacing="0.5">📜 CERTIFICATIONS</text>
+    <line x1="0" y1="183" x2="240" y2="183" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="0" y="206" fill="#0f172a" font-size="12.5" font-weight="700">• AWS Certified Solutions Architect</text>
+    <text x="0" y="222" fill="#64748b" font-size="11">Amazon Web Services • 2023</text>
+    <text x="0" y="248" fill="#0f172a" font-size="12.5" font-weight="700">• Certified Laravel Developer</text>
+    <text x="0" y="264" fill="#64748b" font-size="11">Laravel LLC • 2022</text>
+
+    <!-- Languages -->
+    <text x="0" y="315" fill="#1e3a8a" font-size="16" font-weight="700" letter-spacing="0.5">🌐 LANGUAGES</text>
+    <line x1="0" y1="323" x2="240" y2="323" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="0" y="346" fill="#334155" font-size="12.5"><strong>English</strong> — Fluent / Professional</text>
+    <text x="0" y="368" fill="#334155" font-size="12.5"><strong>Hindi</strong> — Native / Bilingual</text>
+    <text x="0" y="390" fill="#334155" font-size="12.5"><strong>Malayalam</strong> — Working Proficiency</text>
+
+    <!-- Soft Skills -->
+    <text x="0" y="440" fill="#1e3a8a" font-size="16" font-weight="700" letter-spacing="0.5">⭐ HIGHLIGHTS</text>
+    <line x1="0" y1="448" x2="240" y2="448" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="0" y="470" fill="#475569" font-size="12">• Agile / Scrum Team Leadership</text>
+    <text x="0" y="490" fill="#475569" font-size="12">• Performance Optimization &amp; Security</text>
+    <text x="0" y="510" fill="#475569" font-size="12">• Cross-Functional Collaboration</text>
+  </g>
+</svg>

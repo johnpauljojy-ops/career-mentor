@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1060" width="800" height="1060" style="background:#ffffff; font-family:'Segoe UI', Arial, sans-serif;">
+  <!-- Top Teal Header Banner -->
+  <rect x="0" y="0" width="800" height="145" fill="#488b8f"/>
+  
+  <text x="400" y="68" fill="#ffffff" font-size="34" font-weight="800" letter-spacing="1.5" text-anchor="middle">DAVID R. ANDERSON</text>
+  <text x="400" y="100" fill="#e6fffa" font-size="15" font-weight="600" letter-spacing="3" text-anchor="middle">CHIEF TECHNOLOGY OFFICER &amp; ARCHITECT</text>
+
+  <!-- Caramel / Ochre Contact Bar -->
+  <rect x="0" y="145" width="800" height="42" fill="#ca9e67"/>
+  <g transform="translate(400, 171)" fill="#ffffff" font-size="12.5" font-weight="600" text-anchor="middle">
+    <text x="-260" y="0">✆ +1 (555) 890-1234</text>
+    <text x="-80" y="0">✉ david.anderson@executive.com</text>
+    <text x="120" y="0">📍 San Francisco, CA</text>
+    <text x="270" y="0">🌐 davidanderson.tech</text>
+  </g>
+
+  <!-- Main Body -->
+  <g transform="translate(50, 220)">
+    <!-- Executive Summary -->
+    <text x="0" y="18" fill="#ca9e67" font-size="16" font-weight="800" letter-spacing="0.5">EXECUTIVE SUMMARY</text>
+    <text x="0" y="42" fill="#2d3748" font-size="13" line-height="1.6">
+      Accomplished technology executive with 12+ years of experience leading engineering organizations, cloud scale transformations,
+    </text>
+    <text x="0" y="60" fill="#2d3748" font-size="13">
+      and AI-driven enterprise initiatives. Proven success scaling platforms to 20M+ users while reducing infrastructure costs by 38%.
+    </text>
+
+    <!-- Professional Experience -->
+    <text x="0" y="108" fill="#ca9e67" font-size="16" font-weight="800" letter-spacing="0.5">PROFESSIONAL EXPERIENCE</text>
+
+    <!-- Job 1 -->
+    <g transform="translate(0, 126)">
+      <text x="0" y="16" fill="#1a202c" font-size="15" font-weight="700">Chief Technology Officer</text>
+      <!-- Date Pill -->
+      <rect x="610" y="2" width="90" height="20" rx="4" fill="#488b8f"/>
+      <text x="655" y="16" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">2020 — PRESENT</text>
+
+      <text x="0" y="36" fill="#2d3748" font-size="13" font-weight="600">Enterprise Cloud Global • San Francisco, CA</text>
+      <text x="12" y="58" fill="#2d3748" font-size="12.5">• Directed a multi-disciplinary engineering organization of 75+ developers, SREs, and architects.</text>
+      <text x="12" y="76" fill="#2d3748" font-size="12.5">• Transformed legacy monolith into distributed Kubernetes microservices achieving 99.995% uptime.</text>
+      <text x="12" y="94" fill="#2d3748" font-size="12.5">• Managed an annual tech budget of $14M+ and delivered 4 major SaaS product lines ahead of schedule.</text>
+    </g>
+
+    <!-- Job 2 -->
+    <g transform="translate(0, 246)">
+      <text x="0" y="16" fill="#1a202c" font-size="15" font-weight="700">VP of Engineering &amp; Platform Architecture</text>
+      <!-- Date Pill -->
+      <rect x="610" y="2" width="90" height="20" rx="4" fill="#488b8f"/>
+      <text x="655" y="16" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">2016 — 2020</text>
+
+      <text x="0" y="36" fill="#2d3748" font-size="13" font-weight="600">Nexus Data Systems • Austin, TX</text>
+      <text x="12" y="58" fill="#2d3748" font-size="12.5">• Scaled core data processing engine from 1M to 15M transactions per day with zero data loss.</text>
+      <text x="12" y="76" fill="#2d3748" font-size="12.5">• Partnered with product and sales to win $40M+ in Fortune 500 enterprise ARR contracts.</text>
+    </g>
+
+    <!-- Key Strategic Achievements -->
+    <text x="0" y="375" fill="#ca9e67" font-size="16" font-weight="800" letter-spacing="0.5">KEY STRATEGIC ACHIEVEMENTS</text>
+    <g transform="translate(0, 395)">
+      <text x="12" y="16" fill="#2d3748" font-size="12.5">• <strong>Global Team Growth:</strong> Built and retained high-performing remote teams across 4 time zones with 94% retention.</text>
+      <text x="12" y="36" fill="#2d3748" font-size="12.5">• <strong>AI &amp; Automation:</strong> Integrated LLM workflows into customer operations, reducing support SLA resolution times by 55%.</text>
+      <text x="12" y="56" fill="#2d3748" font-size="12.5">• <strong>Security &amp; Compliance:</strong> Led ISO 27001, SOC 2 Type II, and HIPAA audit certifications with zero major findings.</text>
+    </g>
+
+    <!-- Education & Executive Credentials -->
+    <text x="0" y="495" fill="#ca9e67" font-size="16" font-weight="800" letter-spacing="0.5">EDUCATION &amp; CREDENTIALS</text>
+    <g transform="translate(0, 515)">
+      <text x="0" y="16" fill="#1a202c" font-size="14.5" font-weight="700">M.S. in Computer Science &amp; Distributed Systems</text>
+      <text x="700" y="16" fill="#488b8f" font-size="12" font-weight="700" text-anchor="end">STANFORD UNIVERSITY</text>
+      
+      <text x="0" y="40" fill="#1a202c" font-size="14.5" font-weight="700">B.S. in Electrical Engineering &amp; Computer Science</text>
+      <text x="700" y="40" fill="#488b8f" font-size="12" font-weight="700" text-anchor="end">UC BERKELEY</text>
+    </g>
+
+    <!-- Executive Skills Bar -->
+    <text x="0" y="595" fill="#ca9e67" font-size="16" font-weight="800" letter-spacing="0.5">CORE LEADERSHIP &amp; TECH COMPETENCIES</text>
+    <g transform="translate(0, 615)">
+      <rect x="0" y="0" width="130" height="26" rx="4" fill="#f7fafc" stroke="#e2e8f0"/>
+      <text x="65" y="17" fill="#2d3748" font-size="11.5" font-weight="600" text-anchor="middle">Cloud Architecture</text>
+
+      <rect x="140" y="0" width="120" height="26" rx="4" fill="#f7fafc" stroke="#e2e8f0"/>
+      <text x="200" y="17" fill="#2d3748" font-size="11.5" font-weight="600" text-anchor="middle">Executive Strategy</text>
+
+      <rect x="270" y="0" width="135" height="26" rx="4" fill="#f7fafc" stroke="#e2e8f0"/>
+      <text x="337.5" y="17" fill="#2d3748" font-size="11.5" font-weight="600" text-anchor="middle">Microservices &amp; K8s</text>
+
+      <rect x="415" y="0" width="135" height="26" rx="4" fill="#f7fafc" stroke="#e2e8f0"/>
+      <text x="482.5" y="17" fill="#2d3748" font-size="11.5" font-weight="600" text-anchor="middle">Team Scale &amp; Hiring</text>
+
+      <rect x="560" y="0" width="140" height="26" rx="4" fill="#f7fafc" stroke="#e2e8f0"/>
+      <text x="630" y="17" fill="#2d3748" font-size="11.5" font-weight="600" text-anchor="middle">AI &amp; Data Engineering</text>
+    </g>
+  </g>
+</svg>
